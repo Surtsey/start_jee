@@ -28,6 +28,7 @@ out.println("k = "+ k +"; f = "+ f);
 <%} %>
 <br>
 <p>
+<a href="www.google.com">www.google.com</a>
 <br>
 <b>The value returned by function is <%=sum(10,20) %></b>
 
