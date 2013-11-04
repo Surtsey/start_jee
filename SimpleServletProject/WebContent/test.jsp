@@ -28,7 +28,7 @@ out.println("k = "+ k +"; f = "+ f);
 <%} %>
 <br>
 <br>
-The value returned by function is <%=sum(10,20) %>
+<b>The value returned by function is <%=sum(10,20) %></b>
 
 </body>
 </html>
