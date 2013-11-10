@@ -1,5 +1,5 @@
 <%@ page language="java" contentType="text/html; charset=UTF-8"
-    pageEncoding="UTF-8" import="java.util.Date"%>
+	pageEncoding="UTF-8" import="java.util.Date"%>
 <!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
 <html>
 <head>
@@ -7,10 +7,11 @@
 <title>Clock</title>
 </head>
 <body>
-<%@ include file="/hello.jsp" %>
-<br>
+	<%@ include file="/hello.jsp"%>
+	<br>
 
-<b>The time is <%=new Date() %> </b>
+	<b>The time is <%=new Date() %>
+	</b>
 
 </body>
 </html>

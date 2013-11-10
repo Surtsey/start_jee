@@ -13,6 +13,11 @@ import javax.servlet.http.HttpSession;
 public class xmlServlet extends HttpServlet {
 
 
+	/**
+	 * 
+	 */
+	private static final long serialVersionUID = 1L;
+
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("Hello from xmlServlet!");
 		//System.out.println(request.getContentType());
